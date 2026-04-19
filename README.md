@@ -40,7 +40,7 @@ You can get the project in either of these ways.
 
 ```bash
 git clone https://github.com/UOA-CS732-S1-2026/cs732-tech-tutorial-xyan1773.git
-cd tutorial_tech
+cd cs732-tech-tutorial-xyan1773
 ```
 
 ### Option 2. Download ZIP
