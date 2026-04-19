@@ -2,7 +2,6 @@ import { randomUUID, scryptSync, timingSafeEqual } from 'node:crypto';
 import type { Cookies, RequestEvent } from '@sveltejs/kit';
 import { redirect } from '@sveltejs/kit';
 import { db } from '$lib/server/db';
-import { resetStudyRecordsForUser } from '$lib/server/study-record-store';
 import type { AuthUser, SessionRecord } from '$lib/types';
 
 const SESSION_COOKIE = 'study_session';
@@ -160,7 +159,6 @@ export function registerUser(email: string, password: string, cookies: Cookies) 
 		createdAt
 	});
 
-	resetStudyRecordsForUser(userId);
 	createSession(userId, cookies);
 
 	return {
