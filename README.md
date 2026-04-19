@@ -39,8 +39,8 @@ You can get the project in either of these ways.
 ### Option 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
-cd tutorial_tech
+git clone https://github.com/UOA-CS732-S1-2026/cs732-tech-tutorial-xyan1773.git
+cd cs732-tech-tutorial-xyan1773
 ```
 
 ### Option 2. Download ZIP
